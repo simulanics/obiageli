@@ -1,0 +1,39 @@
+.map {
+  width: 100%;
+  height: 740px;
+  overflow-y: hidden;
+}
+
+#arrow-icon {
+  color: wheat;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 23;
+}
+
+#back-arrow-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 16px 16px 8px;
+  padding: 8px;
+  width: 60px;
+  height: 30px;
+  border-radius: 16px;
+  background-color: slategrey;
+  opacity: 0.5;
+  position: absolute;
+  left: 10px;
+}
+
+#input {
+  width: 65%;
+  padding: 8px;
+  position: absolute;
+  right: 10px;
+  margin: 10px;
+  color: orangered;
+  border-color: orangered;
+  --placeholder-color: black;
+}
