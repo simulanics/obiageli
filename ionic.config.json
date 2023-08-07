@@ -1,0 +1,7 @@
+{
+  "name": "obiageli",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
